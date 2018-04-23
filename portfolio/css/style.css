@@ -6,6 +6,20 @@
  * Made By MaterializeCSS.com
  */
 
+/* Custom Styling */
+
+.skillsImage{
+  width: 90%;
+}
+.projectSlides{
+  width:90%;
+  height:200px;
+}
+
+
+
+
+/* Built in styling */
 nav ul a,
 nav .brand-logo {
   color: #444;

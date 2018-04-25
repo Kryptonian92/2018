@@ -7,14 +7,32 @@
  */
 
 /* Custom Styling */
-
+/* *{
+  outline: dashed red 1px;
+} */
 .skillsImage{
   width: 90%;
 }
-.projectSlides{
-  width:90%;
-  height:200px;
+.aboutText{
+  font-size: 20px;
+  text-align: center;
 }
+.projectBorder{
+  border: solid lightgrey 1px;
+  border-radius: 10px;
+}
+.projectImage{
+  width: 100%;
+}
+
+.Test{
+  color:black;
+}
+
+/* .projectSlides{
+  width:800px;
+  height:600px;
+} */
 
 
 

@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ausar McGruder Portfolio</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
+
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
@@ -37,13 +39,35 @@
         <br><br>
         <h1 class="header center teal-text text-lighten-2">Ausar McGruder</h1>
         <div class="row center">
-          <h5 class="header col s12 light">Software Developer</h5>
-          <h5 class="header col s12 light">Python, Javascrpt, MEANjs</h5>
-
+          <h5 class="header col s12 light">Software Engineer</h5>
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Resume</a>
+
+          <!-- Resume Modal -->
+          <!-- Modal Trigger -->
+          <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Resume</a>
+
+
+          <!-- <button data-target="modal1" class="btn modal-trigger">Modal</button> -->
+          <!-- Modal -->
+          <!-- Modal Structure -->
+          <div id="modal1" class="modal" style="height: 100%;">
+            <div class="modal1-content" style="height: 100%;">
+              <object type="application/pdf" data="resume.pdf" style="width: 100%; height: 100%;">
+              </object>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
         </div>
+
+
+
+
+
+
+
         <br><br>
 
       </div>
@@ -55,48 +79,60 @@
   <div class="container">
     <div class="section">
       <div class="center">
+        <h3 class="sectionHeader">About Me</h3>
+      </div>
+      <div class="row">
+        <div class="col s12 m12">
+          <p class="aboutText">IT professional with a passion for tech innovation and problem solving through software development. Full Stack developer with applicable hands on experience in Python, MEAN, Java, MEAN, HTML/CSS and Bootstrap through the development of dozens
+            of projects.</p>
+          <br>
+          <p class="aboutText">Ever since I published my first "Hello World" in 2010, I was hooked. Regardless of what I was doing at the time, wether it was Acting, Modeling or working in sales, I have always been drawn to the tech field.. specifically programming. I continue
+            to sharpen my skills on a daily bases by completing projects and working on algorithms. I'm looking forward to collaborating with other IT professionals to advance technology.</p>
+        </div>
+      </div>
+      <div class="center">
         <h2 class="sectionHeader">Skills</h2>
       </div>
 
       <!--  Skills incon section   -->
       <div class="row skillsDiv">
         <div class="col s2 m2">
-          <img class="skillsImage "src="images/python.png" alt="Python Icon">
+          <img class="skillsImage " src="images/python.png" alt="Python Icon">
         </div>
         <div class="col s2 m2">
-          <img class="skillsImage"src="images/ubuntu.png" alt="Ubuntu Icon">
+          <img class="skillsImage" src="images/ubuntu.png" alt="Ubuntu Icon">
         </div>
         <div class="col s2 m2">
-          <img class="skillsImage"src="images/apple.jpg" alt="Apple Image">
+          <img class="skillsImage" src="images/apple.jpg" alt="Apple Image">
         </div>
         <div class="col s2 m2">
-          <img class="skillsImage"src="images/nodejs.png" alt="NODEjs Icon">
+          <img class="skillsImage" src="images/nodejs.png" alt="NODEjs Icon">
         </div>
         <div class="col s2 m2">
-          <img class="skillsImage"src="images/html5.png" alt="Html5 Icon">
+          <img class="skillsImage" src="images/html5.png" alt="Html5 Icon">
         </div>
         <div class="col s2 m2">
-          <img class="skillsImage"src="images/mongodb.png" alt="Mongodb">
+          <img class="skillsImage" src="images/mongodb.png" alt="Mongodb">
         </div>
       </div>
       <div class="row skillsDiv">
         <div class="col s2 m2">
-          <img class="skillsImage"src="images/python.png" alt="Python Icon">
+          <img class="skillsImage" src="images/python.png" alt="Python Icon">
         </div>
         <div class="col s2 m2">
-          <img class="skillsImage"src="images/ubuntu.png" alt="Ubuntu Icon">
+          <img class="skillsImage" src="images/ubuntu.png" alt="Ubuntu Icon">
         </div>
         <div class="col s2 m2">
-          <img class="skillsImage"src="images/apple.jpg" alt="Apple Image">
+          <img class="skillsImage" src="images/apple.jpg" alt="Apple Image">
         </div>
         <div class="col s2 m2">
-          <img class="skillsImage"src="images/nodejs.png" alt="NODEjs Icon">
+          <img class="skillsImage" src="images/nodejs.png" alt="NODEjs Icon">
         </div>
         <div class="col s2 m2">
-          <img class="skillsImage"src="images/html5.png" alt="Html5 Icon">
+          <img class="skillsImage" src="images/html5.png" alt="Html5 Icon">
         </div>
         <div class="col s2 m2">
-          <img class="skillsImage"src="images/mongodb.png" alt="Mongodb">
+          <img class="skillsImage" src="images/mongodb.png" alt="Mongodb">
         </div>
       </div>
     </div>
@@ -122,47 +158,26 @@
           <h3><class="mdi-content-send brown-text"></i></h3>
           <div class="center">
             <h2 class="sectionHeader">Projects</h2>
-<!-- Project Slides -->
-<!-- Phoenix Slides -->
+
+
+            <!-- Project round slides -->
             <div class="row">
-              <div class="col s6 m6">
-                <div class="center">
-                  <h5>Phoenix Connect</h5>
-                </div>
-                <div class="slider">
-                    <ul class="slides">
-                      <li>
-                        <img class="materialboxed" src="images/phoenix1.png" >
-                        <div class="caption center-align">
-                          <h3>This is our big Tagline!</h3>
-                          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                        </div>
-                      </li>
-                      <li>
-                        <img class="materialboxed" src="images/phoenix1.png">
-                        <div class="caption left-align">
-                          <h3>Left Aligned Caption</h3>
-                          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                        </div>
-                      </li>
-                      <li>
-                        <img class="materialboxed" src="images/phoenix1.png">
-                        <div class="caption right-align">
-                          <h3>Right Aligned Caption</h3>
-                          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                        </div>
-                      </li>
-                      <li>
-                        <img class="materialboxed" src="images/phoenix1.png">
-                        <div class="caption center-align">
-                          <h3>This is our big Tagline!</h3>
-                          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                        </div>
-                      </li>
-                    </ul>
+              <div class="col s6 m6 ">
+                <div class="carousel">
+                  <div class="center">
+                    <h5>Phoenix Connect</h5>
                   </div>
+                  <a class="carousel-item" href="#one!"><img class="materialboxed projectImage" src="images/phoenix3.png"></a>
+                  <a class="carousel-item" href="#two!"><img class="materialboxed projectImage" src="images/phoenix4.png"></a>
+                  <a class="carousel-item" href="#three!"><img class="materialboxed projectImage" src="images/phoenix1.png"></a>
+                  <a class="carousel-item" href="#four!"><img class="materialboxed projectImage" src="images/phoenix1old.png"></a>
+                  <a class="carousel-item" href="#five!"><img class="materialboxed projectImage" src="images/html5.png"></a>
+                </div>
+                <p>Vivamus nibh risus, ornare sed lacus eu, mattis iaculis urna. Duis non tortor a neque egestas fringilla. Cras eros nibh, egestas vitae facilisis a, faucibus ut massa. Aenean consequat, ligula eu ultrices congue, libero magna posuere dolor,
+                  in congue lorem libero at massa.</p>
               </div>
             </div>
+
 
 
           </div>
@@ -215,7 +230,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Ausar McGruder</a>
+        Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Ausar McGruder</a>
       </div>
     </div>
   </footer>
@@ -226,5 +241,6 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
-  </body>
+</body>
+
 </html>

@@ -29,6 +29,12 @@
        $('.modal').modal();
      });
 
+//tooltip popup
+     $(document).ready(function(){
+       $('.tooltipped').tooltip();
+     });
+
+//Donload resume modal
      $(document).ready(function(){
        $('#download-button').onclick
      })
